@@ -30,8 +30,6 @@ function logOut() { //logga ut funktion
   localStorage.setItem("loggedIn", "false");
   document.getElementById("loginForm").classList.remove("invisible");
   document.getElementById("welcomeMessage").classList.add("invisible");
-  document.getElementById("username").value = "";
-  document.getElementById("password").value = "";
 }
 
 
